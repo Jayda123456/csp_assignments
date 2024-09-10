@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("hellow world");
+     
+    char name[]= "Jayda";
+    printf ("%s" , name);
     return 0;
+    
 }
