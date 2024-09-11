@@ -14,4 +14,11 @@ printf("%d\n", bignum);
 char breakfast[] = "strawberries";
 printf("%s\n", breakfast);
 
+char favcolor[] = "light blue";
+printf("%s\n", light blue);
+
+char school[] = "UCAS";
+printf("%s\n, UCAS");
+
+
 }
