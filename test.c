@@ -1,8 +1,17 @@
 #include <stdio.h>
 
 int main(void){
+
 char name[] = "Jayda";
-int smallNum = 4;
 printf("%s\n", name);
+
+int smallNum = 4;
 printf("%d\n", smallNum);
+
+int bignum = 50;
+printf("%d\n", bignum);
+
+char breakfast[] = "strawberries";
+printf("%s\n", breakfast);
+
 }
