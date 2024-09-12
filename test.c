@@ -20,15 +20,15 @@ printf("%s\n", favcolor);
 char school[] = "UCAS";
 printf("%s\n", school);
 
-char year[] = "2024";
-printf("%d\n", "2024");
+int year = 2024;
+printf("%d\n", 2024);
 
 char Icolor[] = "blue"
-printf("%s\n", "blue");
+printf("%s\n", blue);
 
-char age[] = 15;
-printf("%d\n", "15");
+int age = 15;
+printf("%d\n", 15);
 
 char favsub[] = "math"
-printf("%s\n", "math")
+printf("%s\n", favsub);
 }  
