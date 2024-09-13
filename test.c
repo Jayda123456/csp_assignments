@@ -2,6 +2,7 @@
 
 int main(void){
 
+
 char name[] = "Jayda";
 printf("%s\n", name);
 
@@ -23,12 +24,14 @@ printf("%s\n", school);
 int year = 2024;
 printf("%d\n", 2024);
 
-char Icolor[] = "blue"
-printf("%s\n", blue);
+char Icolor[] = "blue";
+printf("%s\n", Icolor);
 
 int age = 15;
 printf("%d\n", 15);
 
-char favsub[] = "math"
+char favsub[] = "math";
 printf("%s\n", favsub);
+return 0;
+
 }  
