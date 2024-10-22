@@ -1,17 +1,24 @@
 #include <stdio.h>
-int hour;
+#include <time.h>
 
-int main(){
+int main() {
     time_t now;
-    struct tm*now_tm;
-     
+    struct tm *now_tm;
+    int hour;
+
     now = time(NULL);
     now_tm = localtime(&now);
-    hour = struct m
-    ->tm_hour;
-    printf("%d\n" , hour);
+    hour = now_tm->tm_hour; 
 
-    if (hour <= 12){
-        printf("")
+    printf("Current hour: %d\n", hour);
+
+    if (hour < 12) {
+        printf("good morning\n");
+    } else if (hour < 18) {
+        printf("good afternoon\n");
+    } else {
+        printf("good evening\n");
     }
+
+    return 0;
 }
