@@ -9,7 +9,7 @@ int main(){
         printf("give me a number");
         scanf("%d", &usr);
         printf("give me short word");
-        scanf("%s", &one);
+        scanf("%d", &one);
         printf("give me short word");
         scanf("%s", &two);
         strcat(three, one);
