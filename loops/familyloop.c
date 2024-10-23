@@ -1,9 +1,9 @@
 #include <stdio.h>
 char name[50]= ("wyatt" "brooklyn"" Reese" "Jayda" "jd");
-int x;
-char main(){
-        for (x>0;x<5;){
-        printf("%d", name);
+int i;
+int main(){
+        for (i>0;i<5;i++){
+        printf("%s\n", name);
         }
     return 0;
     }
