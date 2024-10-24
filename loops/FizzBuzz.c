@@ -1,38 +1,26 @@
 #include <stdio.h>
-#include <string.h>
-int i;
-int usr;
-char one[50];
-char two[50];
-char three[49];
-int main(){
-        printf("give me a number");
-        scanf("%d", &usr);
-        printf("give me short word");
-        scanf("%d", &one);
-        printf("give me short word");
-        scanf("%s", &two);
-        strcat(three, one);
-        strcat(three, two);
-     //loopthat counts to 50
-    for(i=1;i<=usr;i++){
+char fizz[] = "fizz";
+char buzz[] = "buzz";
+char fizzbuzz[] = "fizzbuzz";
+// first block of code
+int main() {
 
-        //replace numbers divisile by 3 and 5 with "fizzBuss"
+    int i = 0;
+// for loop
+    for(i=1;i<=50;i++){
+// if statments
         if(i%3==0 && i%5==0){
-            strcat(one,two);
-            print("%s\n", three);
-         
-        //replace number divisible by 3 with "fizz"
-            }else if (i%5==0){
-                printf("%s\n", one)
-       
+            printf("%s\n", fizzbuzz);
+        }
+        else if(i%3==0){
+            printf("%s\n", fizz);
+        }
 
-        //replace numebrs divisible by 5 with "buss"
-            }else if (i%5==0){
-                
-            }
-      //print the number
-        printf("%d\n", i);
+        else if(i%5==0){
+            printf("%s\n", buzz);
+        }
+        else{
+            printf("%d\n", i);
         }
     }
 }
